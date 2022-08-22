@@ -1,176 +1,379 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+<title>Page Title</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
-  <div class="wrapper">
-    <header>
-      <nav class="navbar">
-        <div class="brand">
-          <h2>F<span>C</span></h2>
-        </div>
-        <ul class="menu" id="menu">
-          <li><a href="#"  class="active">Inicio</a></li>
-          <li><a href="#">Quien Soy</a></li>
-          <li><a href="#">Portafolio</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-        <div class="toggle-menu">
-          <i class="fas fa-bars" id="toggle_open"></i>
-          <i class="fas fa-close" id="toggle_close"></i>
-        </div>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="info-content">
-        <span class="info-content__subtitle">Frontend Developers</span>
-        <h1>Yo<span>Frank</span> Chavez</h1>
-        <div class="sotial-networks">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
-        </div>
-         <p class="info-content__p">Me considero una persona dinámica responsable y creativo, con
-          capacidad de trabajar en equipo, me motiva emprender nuevos
-          proyectos y estar en constante actitud de aprendizaje en el área a
-          desempeñarme.</p>
-         <a download href="#"><button class="download-cv">Download CV</button></a>
-      </div>
-      <img src="https://drive.google.com/file/d/1wTYPj0rl80WJWGEPSwcg_7B34alJuyIa/view?usp=sharing" alt="">
-    </main>
+
+<div class="principal">
+
+  <div class="principal_barra_lateral">
+    <div class="logo"><a href=""><img src="https://itemsstore.net/coddythemes/amos/premium/img/logo/logo.png" alt=""></a></div>
+    <div class="menu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portafolio</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright"><p>Copyright © 2022 by <a href="" id="cor">Frank Chavez</a></p></div>
   </div>
-    <div class="about">
-      <img src="https://drive.google.com/file/d/1wTYPj0rl80WJWGEPSwcg_7B34alJuyIa/view?usp=sharing" alt="">
-      <div class="about-info">
-        <h2>About me</h2>
-        <div class="divider"></div>
-        <p>Me considero una persona dinámica responsable y creativo, con
-          capacidad de trabajar en equipo, me motiva emprender nuevos
-          proyectos y estar en constante actitud de aprendizaje en el área a
-          desempeñarme.</p>
-        <p>Soy egresado de la carrera de Computación e Informática en
-          Cibertec con ganas de ejercer mi profesión y aportar mi
-          conocimiento, para así poder cumplir las metas y objetivos trazadas
-          por la empresa</p>
-        <button class="download-cv">Read more</button>
+
+
+
+  <div class="principal_banner">
+
+    <div class="contenedor_inicio_menu">
+    <div class="contenedor_inicio">
+      <div class="titulo_nombre">Frank Chavez</div>
+      <div class="puesto_trabajo">Front end</div>
+      <div class="redes_sociales">
+        <ul>
+          <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+          <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+          <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+          <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
+          <li><a href=""><i class='bx bxl-discord-alt' ></i></a></li>
+        </ul>
       </div>
     </div>
-    <div class="portfolio">
-      <div class="portfolio-heading">
-        <h2>My Portfolio</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container">
-        <div class="card">
-          <div class="card__img">
+  </div>
+
+  <div class="about">
+    <div class="about_secun">
+      <div class="container_about">
+        <div class="about_inner">
+          <div class="about_izquierda" id="izquierda">
+           <div class="image">
+            <img src="https://itemsstore.net/coddythemes/amos/premium/img/about/500x500.jpg" alt="" >
+            <div class="main_imagen" id="main_final" data-img-url="https://itemsstore.net/coddythemes/amos/premium/img/about/2.jpg" ></div>
+           </div> 
           </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button">
-              <a href="#">Project Details</a>
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button">
-              <a href="#">Project Details</a>
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="https://github.com/Michaelxk/Delegation-Test" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button">
-              <a href="#">Project Details</a>
-            </button>
+          <div class="about_derecha">
+            <div class="derecha_titulo"><h3 id="titulo_about">About Us</h3></div>
+            <div class="derecha_des">
+              <p id="p1">
+                My name is Albert Walkers. I am a Web Developer, and I'm very passionate and dedicated to my work.
+              </p>
+              <p id="p2">
+                With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process
+              </p></div>
+            <div class="derecha_cv">
+              <a href="https://drive.google.com/uc?export=download&id=1sjZ9FlT9XPtcJozOrzCrn8zp5Uxc-Vun">Dowload CV</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="contact-section">
-      <div class="contact-heading">
-        <h2>Keep in touch</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container-contact">
-        <img class="contact-section__img" src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/img-opacity50_jgruyl.png" alt="">
-        <div class="contact-form">
-          <h4>Send me a message...</h4>
-          <form class="form-group">
-            <input type="text" placeholder="Name" class="input">
-            <input type="email" placeholder="Email" class="input">
-            <textarea name="message" placeholder="Place your message here..."></textarea>
-            <button type="submit" class="btn-submit">Send message</button>
-          </form>
+  </div>
+
+
+
+  <div class="about" id="servicio">
+    <div class="about_secun" id="servicio_secun">
+      <div class="container_about">
+        <div class="about_inner" id="servicio_inner">
+          <div class="about_izquierda" id="service_izquierda" >
+            <div class="derecha_titulo"><h3 id="titulo_about">Service</h3></div>
+            <div class="derecha_des">
+              <p id="p1">
+                Our business mission is to create real value for our customers, offering them a complete , efficient and high quality service. 
+              </p>
+            </div>
+              <div class="derecha_cv">
+              <a href="https://drive.google.com/uc?export=download&id=1sjZ9FlT9XPtcJozOrzCrn8zp5Uxc-Vun">Ver mas</a>
+            </div>
+
+          </div>
+          <div class="about_derecha" id="servicio_derecha">
+            <div class="service_secun">
+              <div class="service_derecha_1">
+                <ul>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
         </div>
       </div>
     </div>
 
-    <footer class="footer"> 
-      <div class="footer-content">
-        <h2>John Carter</h2>
-        <h5>Frontend Developer</h5>
+  </div>
+
+
+  <div class="separador">
+    <div class="separador_secundario">
+      <div class="contenedor">
+        <div class="inner_separador">
+          <div class="separador_izquierda">
+            <h3 class="titulo_separador">Check out our video presentation</h3>
+            <p class="des_separador">We provide cost-effective and high quality products to customers</p>
+          </div>
+          <div class="separador_derecha">
+            <h3 class="sep_de_titulo" >Whatch video</h3>
+          </div>
+        </div>
       </div>
-      <div class="sotial-networks">
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter-square"></i>
+    </div>
+  </div>
+
+
+
+
+  <div class="about" id="proyectos_porta">
+    <div class="about_secun" id="servicio_secun">
+      <div class="container_about">
+        <div class="about_inner" id="servicio_inner2">
+          <div class="about_izquierda" id="service_izquierda" >
+            <div class="derecha_titulo"><h3 id="titulo_about">Creative Portfolio</h3></div>
+            <div class="derecha_des">
+              <p id="p1">
+                Our business mission is to create real value for our customers, offering them a complete , efficient and high quality service. 
+              </p>
+            </div>
+              <div class="derecha_cv">
+              <a href="https://drive.google.com/uc?export=download&id=1sjZ9FlT9XPtcJozOrzCrn8zp5Uxc-Vun">Ver mas</a>
+            </div>
+
+          </div>
+          <div class="about_derecha" id="servicio_derecha">
+            <div class="service_secun">
+              <div class="service_derecha_1">
+                <ul>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
       </div>
-    </footer>
-  <script src="scripts.js"></script>
-  </body>
-</html> 
+    </div>
+
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+  <div class="skill">
+    <div class="skill_secundario">
+      <div class="contenedor">
+        <div class="skills_inner">
+          <div class="derecha_titulo">
+            <h3 id="titulo_about">Programming Skills</h3>
+          </div>
+          <div class="skills_inner_progm">
+            <div class="izquier_program">
+              <div class="progre_inner">
+                <span>HTML</span>
+              </div>
+              <div class="progre_inner">
+                <span>CSS</span>
+              </div>
+              <div class="progre_inner">
+                <span>JAVA</span>
+              </div>
+              <div class="progre_inner">
+                <span>ANGULAR</span>
+              </div>
+            </div>
+            <div class="derecha_program">
+              <div class="progre_inner">
+                <span>HTML</span>
+              </div>
+              <div class="progre_inner">
+                <span>CSS</span>
+              </div>
+              <div class="progre_inner">
+                <span>JAVA</span>
+              </div>
+              <div class="progre_inner">
+                <span>ANGULAR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="about" id="servicio3">
+    <div class="about_secun" id="servicio_secun">
+      <div class="container_about">
+        <div class="about_inner" id="servicio_inner">
+          <div class="about_izquierda" id="service_izquierda" >
+            <div class="derecha_titulo"><h3 id="titulo_about">Latest News</h3></div>
+            <div class="derecha_des">
+              <p id="p1">
+                Our business mission is to create real value for our customers, offering them a complete , efficient and high quality service. 
+              </p>
+            </div>
+              <div class="derecha_cv">
+              <a href="https://drive.google.com/uc?export=download&id=1sjZ9FlT9XPtcJozOrzCrn8zp5Uxc-Vun">Ver mas</a>
+            </div>
+
+          </div>
+          <div class="about_derecha" id="servicio_derecha">
+            <div class="service_secun">
+              <div class="service_derecha_1">
+                <ul>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list_inner">
+                      <span class="icon"><i class='bx bxl-facebook'></i></span>
+                      <div class="title_service">Creative Design</div>
+                      <div class="des_service">We provide cost-effective and high quality products to meet our clients...</div>
+                    </div>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div class="separador">
+    <div class="separador_secundario">
+      <div class="contenedor">
+        <div class="inner_separador">
+          <div class="separador_izquierda">
+            <h3 class="titulo_separador">Check out our video presentation</h3>
+            <p class="des_separador">We provide cost-effective and high quality products to customers</p>
+          </div>
+          <div class="separador_derecha">
+            <h3 class="sep_de_titulo" >Whatch video</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+
+    
+
+
+
+  </div>
+
+</div>
+
+</body>
+</html>
